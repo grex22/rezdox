@@ -6,4 +6,15 @@ $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
 
 // Colors
-$brand-primary:         #27ae60;
+$brand-primary:         #00bc00;
+$green:         				$brand-primary;
+$gray :        					#535353;
+$red  :       					#ff0c0c;
+$gray-ghost:						#f4f4f4;
+$gray-lines:						#e1e1e1;
+
+
+// Layout
+$width-value: 260;
+$nav-left-width: $width-value + 1px;
+$main-left-padding: $width-value + 40px;

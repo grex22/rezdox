@@ -8,7 +8,9 @@
   "private": true,
   "dependencies": {
     "bootstrap-sass": "3.3.5",
-    "font-awesome": "fontawesome#~4.4.0"
+    "font-awesome": "fontawesome#~4.7.0",
+    "bootstrap-table": "^1.11.1",
+    "fancybox": "^3.2.5"
   },
   "overrides": {
     "bootstrap-sass": {
@@ -36,8 +38,13 @@
     "font-awesome": {
       "main": [
         "css/font-awesome.css",
-				"fonts/*"
+        "fonts/*"
       ]
+    },
+		"fancybox": {
+      "main": [
+        "dist/jquery.fancybox.min.css"
+			]
     }
   }
 }
